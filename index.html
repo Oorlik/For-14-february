@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="icon" href="favicon.ico" />
+    <title>Особенный день</title>
+  </head>
+  <body>
+    <audio id="bg-music" loop>
+      <source src="bg.mp3" type="audio/mpeg" />
+    </audio>
+    <section class="container">
+      <div class="header">
+        <span><i class="fa-solid fa-heart heart"></i></span>
+        <h1>Для тебя</h1>
+        <span><i class="fa-solid fa-heart heart"></i></span>
+      </div>
+      <div>
+        <button id="startMusic" onclick="return slowScroll('.block')">
+          Далее<i class="fa-solid fa-arrow-down"></i>
+        </button>
+      </div>
+    </section>
+
+    <section class="about-you">
+      <h1>Причины по которым ты действительно замечательная</h1>
+      <div class="container-block">
+        <div class="block">
+          <div>
+            <h2>Заботливая</h2>
+            <div class="hidden-block">
+              <img src="img/jabota.jpg" alt="" />
+              <p>
+                Ты та, кто постоянно беспокоится обо мне и это всегда греет душу
+              </p>
+            </div>
+            <button class="show-text">Показать</button>
+          </div>
+        </div>
+        <div class="block">
+          <div>
+            <h2>Маленькая</h2>
+            <div class="hidden-block">
+              <img src="img/alfa.jpg" alt="" />
+              <p>Твой рост делает тебя очень милой</p>
+            </div>
+            <button class="show-text">Показать</button>
+          </div>
+        </div>
+        <div class="block">
+          <div>
+            <h2>Хорошее чувство юмора</h2>
+            <div class="hidden-block">
+              <img src="img/pinsia.jpg" alt="" />
+              <p>Шутки твои отзываются в самом сердце</p>
+            </div>
+            <button class="show-text">Показать</button>
+          </div>
+        </div>
+        <div class="block">
+          <div>
+            <h2>Цепляющая</h2>
+            <div class="hidden-block">
+              <img src="img/in my mind.jpg" alt="" />
+              <p>
+                Не знаю как так получилось что мы с тобой стали настолько
+                близки, однако теперь без тебя я уже не могу
+              </p>
+            </div>
+            <button class="show-text">Показать</button>
+          </div>
+        </div>
+        <div class="block">
+          <div>
+            <h2>Прекрасная</h2>
+            <div class="hidden-block">
+              <img src="img/sun.jpg" alt="" />
+              <p>Люблю тебя больше всех</p>
+            </div>
+            <button class="show-text">Показать</button>
+          </div>
+        </div>
+        <div class="block">
+          <div>
+            <h2>Вечная</h2>
+            <div class="hidden-block">
+              <img src="img/love.jpg" alt="" />
+              <p>
+                Не забывай насколько ты замечательная потому-что я вижу тебя
+                именно такой. Люблю тебя моя милая Анфиса
+              </p>
+            </div>
+            <button class="show-text">Показать</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="our-love">
+      <div class="out-love-container">
+        <div class="our-love-block">
+          <div>
+            <span class="first-photo"><img src="img/anfisa.jpg" alt="" /></span>
+            <img src="img/anfisa2.jpg" alt="" />
+          </div>
+          <div>
+            <p>Первые фото  в реале которое ты мне скинула</p>
+          </div>
+        </div>
+        <div class="our-love-block">
+          <div>
+            <p class="need-marg">То что ты любишь больше всего<i class="fa-regular fa-face-smile-beam"></i></p>
+          </div>
+          <div>
+            <img src="img/tea.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+      <button id="toFinal">Кликни</button>
+
+    </section>
+
+    <section class="final-screen" id="final">
+
+      <div class="final-content">
+        <div class="final-heart">❤</div>
+        <h1>С 14 февраля, любимая</h1>
+        <p>
+          Спасибо тебе за тепло,<br>
+          заботу и то, что ты есть.
+        </p>
+      </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
