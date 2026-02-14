@@ -92,7 +92,7 @@ img{max-width: 100%;}
 }
 .about-you .block{
   transition: transform .3s ease, box-shadow .3s ease;
-  background-image: url('../img/heart-logo.jpg');
+  background-image: url('/img/heartLogo.jpg');
   border-radius: 5px;
   width: 400px;
   margin: 70px 50px;
@@ -228,4 +228,5 @@ margin-bottom: 200px;
   50% { transform: scale(1.2); }
 
 }
+
 
